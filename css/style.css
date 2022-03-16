@@ -1,69 +1,64 @@
 
-body{
-  font-family: "Poppins";
+body {
+  font-family: 'Poppins', sans-serif;
   background-image: url(file:///C:/All%20stuff/Microverse/My-Portfolio/images/Header%20bg.svg);
 }
 
-header{
-    padding: 10px;
+header {
+  padding: 10px;
 }
 
-.logo{
+.logo {
   font-size: 20px;
-  color: #6070FF;
+  color: #6070ff;
   font-weight: 700;
   padding-left: 30px;
 }
-a.button{
-padding:1rem 1.5rem;
-border-radius:4px;
-color:#6070FF
+
+a.button {
+  padding:1rem 1.5rem;
+  border-radius:4px;
+  color:#6070ff;
 }
-.name{
+
+.name {
   font-weight: 700px;
   font-size: 48px;
-  color: #091E42;
-  margin:0px;
-  padding:0px;
+  color: #091e42;
+  margin: 0px;
+  padding: 0px;
   line-height: 50px; 
 }
 
-.description{
+.description {
   font-weight: 400px;
   font-size: 20px;
 }
 
-.app-wrap{
-    max-width: 540px;
-    height: 90vh;
-    margin: 5vh auto 5vh auto;
-   
-    border-bottom-width: 70px;
-    border-radius: 10px;
+.app-wrap {
+  max-width: 540px;
+  height: 90vh;
+  margin: 5vh auto 5vh auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom-width: 70px;
+  border-radius: 10px;
 }
 
 /* important flexbox for mobile */
 
-.app-wrap{
-    display: flex;
-    flex-direction: column;
-}
-
 .app-wrap > *{
-    flex:1 1 auto;
+  flex:1 1 auto;
 }
 
-.page{
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+.page {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .toolbar{
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
 }
-
-
-
