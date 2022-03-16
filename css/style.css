@@ -22,14 +22,15 @@ a.button {
 }
 
 .name {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 48px;
   color: #091e42;
-  line-height: 20px; 
+  line-height: 20px;
+  
 }
 
 .description {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 20px;
 }
 
