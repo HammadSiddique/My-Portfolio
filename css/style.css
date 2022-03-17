@@ -15,8 +15,8 @@ body {
   justify-content: space-between;
   flex: 1;
   align-items: center;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
@@ -61,14 +61,13 @@ a.button {
   font-weight: 700;
   font-size: 48px;
   color: #091e42;
-  line-height: 45px;
+  line-height: 52px;
   display: flex;
   align-items: center;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
-  line-height: 52px;
+  margin: 12px 0;
 }
 
 .description {
@@ -77,7 +76,7 @@ a.button {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .connect {
@@ -88,8 +87,9 @@ a.button {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 0px 8px;
+  margin: 0 8px;
 }
+
 /* important flexbox for mobile */
 
 .app-wrap > * {
@@ -105,7 +105,7 @@ a.button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px 0px;
+  padding: 0 0;
   margin: 10px;
   flex: none;
   order: 4;
@@ -115,7 +115,7 @@ a.button {
   list-style: none;
 }
 
-.fa-brands { 
+.fa-brands {
   color: #505f79;
   text-decoration: none;
   font-size: 20px;
