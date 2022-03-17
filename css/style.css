@@ -1,40 +1,44 @@
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background-image: url(file:///C:/All%20stuff/Microverse/My-Portfolio/images/Header%20bg.svg);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  padding: 10px;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-position: center;
+  background-size: auto;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 18px;
   color: #6070ff;
   font-weight: 700;
   padding-left: 30px;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
 }
 
 a.button {
   padding: 1rem 1.5rem;
   border-radius: 4px;
   color: #6070ff;
-}
-
-.name {
-  font-weight: 700;
-  font-size: 48px;
-  color: #091e42;
-  line-height: 20px;
-}
-
-.description {
-  font-weight: 400;
   font-size: 20px;
 }
 
 .app-wrap {
-  max-width: 540px;
+  max-width: 375px;
   height: 90vh;
   margin: 5vh auto 5vh auto;
   display: flex;
@@ -43,6 +47,49 @@ a.button {
   border-radius: 10px;
 }
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(file:///C:/All%20stuff/Microverse/My-Portfolio/images/header-shapes%20mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  background-size: 450px 462px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 48px;
+  color: #091e42;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+  line-height: 52px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.connect {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
 /* important flexbox for mobile */
 
 .app-wrap > * {
@@ -50,13 +97,26 @@ a.button {
 }
 
 .page {
-  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
 
-.toolbar {
+.social-icons {
+  width: 180px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  flex: 1;
-  align-items: center;
+  padding: 0px 0px;
+  margin: 10px;
+  flex: none;
+  order: 4;
+}
+
+.icon {
+  list-style: none;
+}
+
+.fa-brands { 
+  color: #505f79;
+  text-decoration: none;
+  font-size: 20px;
 }
