@@ -39,7 +39,7 @@ a.button {
 
 .app-wrap {
   max-width: 375px;
-  height: 90vh;
+  height: 110vh;
   margin: 5vh auto 5vh auto;
   display: flex;
   flex-direction: column;
@@ -119,4 +119,22 @@ a.button {
   color: #505f79;
   text-decoration: none;
   font-size: 20px;
+}
+
+/* Portfolio CSS start here */
+
+.project-cards {
+  width: 100%;
+  display: grid;
+  grid-row-gap: 25px;
+  justify-content: center;
+  grid-template-columns: 90%;
+}
+
+.cards {
+  width: 100%;
+  height: 500px;
+  border: 1px solid rgb(211, 204, 204);
+  border-radius: 10px;
+  box-shadow:0 0 5px  rgba(0,0,0,0.3)
 }
