@@ -68,6 +68,7 @@ a.button {
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
+  margin-left: 10px;
 }
 
 .description {
@@ -77,6 +78,7 @@ a.button {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
+  margin-left: 10px;
 }
 
 .connect {
@@ -125,6 +127,7 @@ a.button {
 
 .project-cards {
   width: 100%;
+  height: 100%;
   display: grid;
   grid-row-gap: 25px;
   justify-content: center;
@@ -133,16 +136,15 @@ a.button {
 
 .cards {
   width: 100%;
-  height: auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   box-shadow:0 0 1px  rgba(0,0,0,0.3);
 }
 
 .cards img{
-  width: 100%;
-  height: 50%;
-  margin: 12px 0px;
+  width: 90%;
+  height: 45%;
+  margin: 12px 18px;
 }
 
 .project-name{
@@ -209,4 +211,75 @@ a.button {
 .see-project:hover {
   background-color: #e2e2e2;
   transition: 0.5s;
+}
+
+/* CSS for about section */
+
+.about {
+  margin-top: 10vh;
+}
+
+.see-resume {
+  display: flex;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 12px;
+  margin-bottom: 40px;
+  color: #6070ff;
+  font-size: 20px;
+  border: 1px solid #6070ff;
+}
+
+.see-resume:hover {
+  background-color: #e2e2e2;
+  transition: 0.5s;
+}
+
+.languages {
+  flex: 1;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.framework {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.text-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #f7f7f9;
+  margin-top: 5px;
+  border-radius: 16px;
+  width: 100%;
 }
