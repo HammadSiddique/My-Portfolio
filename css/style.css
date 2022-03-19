@@ -39,7 +39,7 @@ a.button {
 
 .app-wrap {
   max-width: 375px;
-  height: 90vh;
+  height: 110vh;
   margin: 5vh auto 5vh auto;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@ a.button {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: url(file:///C:/All%20stuff/Microverse/My-Portfolio/images/header-shapes%20mobile@2x.svg);
+  background-image: url("../images/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: contain, cover;
   background-size: 450px 462px;
@@ -68,6 +68,7 @@ a.button {
   order: 0;
   flex-grow: 0;
   margin: 12px 0;
+  margin-left: 10px;
 }
 
 .description {
@@ -77,6 +78,7 @@ a.button {
   order: 1;
   flex-grow: 0;
   margin: 12px 0;
+  margin-left: 10px;
 }
 
 .connect {
@@ -119,4 +121,168 @@ a.button {
   color: #505f79;
   text-decoration: none;
   font-size: 20px;
+}
+
+/* Portfolio CSS start here */
+
+.project-cards {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-row-gap: 25px;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+
+.cards {
+  width: 100%;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  box-shadow: 0 0 1px  rgba(0, 0, 0, 0.3);
+}
+
+.cards img {
+  width: 90%;
+  height: 45%;
+  margin: 12px 18px;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #172b4d;
+  flex: none;
+  margin: 0 18px;
+}
+
+.key-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 80%;
+  color: #7a869a;
+}
+
+.canopy {
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.card-description {
+  font-weight: 400;
+  font-size: 15px;
+  color: #344563;
+  line-height: 25px;
+  margin: 12px 16px;
+  display: flex;
+  text-align: left;
+}
+
+.language-container {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.lang {
+  background: #ebebff;
+  padding: 8px 8px;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.see-project {
+  display: flex;
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-bottom: 40px;
+  color: #396df2;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #396df2;
+  background-color: white;
+}
+
+.see-project:hover {
+  background-color: #e2e2e2;
+  transition: 0.5s;
+}
+
+/* CSS for about section */
+
+.about {
+  margin-top: 10vh;
+}
+
+.see-resume {
+  display: flex;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 12px;
+  margin-bottom: 40px;
+  color: #396df2;
+  font-size: 20px;
+  border: 1px solid  #396df2;
+  background-color: white;
+}
+
+.see-resume:hover {
+  background-color: #e2e2e2;
+  transition: 0.5s;
+}
+
+.languages {
+  flex: 1;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.text-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-language > li {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #f7f7f9;
+  margin-top: 5px;
+  border-radius: 16px;
+}
+
+.framework {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
 }
