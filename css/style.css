@@ -255,12 +255,12 @@ a.button {
   align-items: center;
 }
 
- ul.about-language {
+ul.about-language {
   list-style: none;
   border: 1px solid #f7f7f9;
   margin-top: 5px;
   border-radius: 16px;
- }
+}
 
 .framework {
   display: flex;
