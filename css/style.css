@@ -255,7 +255,10 @@ a.button {
   align-items: center;
 }
 
-ul.about-language {
+.about-language > li {
+  gap: 16px;
+  display: flex;
+  align-items: center;
   list-style: none;
   border: 1px solid #f7f7f9;
   margin-top: 5px;
