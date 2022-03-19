@@ -51,7 +51,7 @@ a.button {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: url(file:///C:/All%20stuff/Microverse/My-Portfolio/images/header-shapes%20mobile@2x.svg);
+  background-image: url("../images/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: contain, cover;
   background-size: 450px 462px;
@@ -185,8 +185,9 @@ a.button {
 .language-container {
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  gap: 10px;
   align-items: center;
+  margin-left: 16px;
 }
 
 .lang {
@@ -198,14 +199,16 @@ a.button {
 
 .see-project {
   display: flex;
-  padding: 10px 10px;
+  padding: 15px 15px;
   border-radius: 10px;
-  margin-top: 15px;
-  margin-left: 28px;
+  margin-top: 20px;
+  margin-left: 16px;
   margin-bottom: 40px;
-  color: #6070ff;
+  color: #396df2;
   font-size: 16px;
-  border: 1px solid #6070ff;
+  font-weight: 500;
+  border: 1px solid #396df2;
+  background-color: white;
 }
 
 .see-project:hover {
@@ -226,9 +229,10 @@ a.button {
   margin-top: 15px;
   margin-left: 12px;
   margin-bottom: 40px;
-  color: #6070ff;
+  color: #396df2;
   font-size: 20px;
-  border: 1px solid #6070ff;
+  border: 1px solid  #396df2;
+  background-color: white;
 }
 
 .see-resume:hover {
@@ -237,6 +241,30 @@ a.button {
 }
 
 .languages {
+  flex: 1;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.text-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ ul.about-language{
+  list-style: none;
+  border: 1px solid #f7f7f9;
+  margin-top: 5px;
+  border-radius: 16px;
+}
+
+.framework {
+  display: flex;
+  justify-content: space-between;
   flex: 1;
   align-items: center;
   width: 80%;
@@ -254,33 +282,4 @@ a.button {
   margin-left: 10px;
   font-weight: 500;
   font-size: 16px;
-}
-
-.framework {
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-  align-items: center;
-  width: 80%;
-  margin-left: 10px;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.text-icon {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.about-language {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  border: 1px solid #f7f7f9;
-  margin-top: 5px;
-  border-radius: 16px;
-  width: 100%;
 }
