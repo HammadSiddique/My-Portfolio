@@ -291,7 +291,7 @@ a.button {
 
 .contact-section {
   background-color: #6070ff;
-  border-radius: 100px 0 0 0 ;
+  border-radius: 100px 0 0 0;
   background-image: url(../images/contact-form-shapes-mobile.svg);
   background-position: right;
   background-repeat: no-repeat;
@@ -300,7 +300,7 @@ a.button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10;
+  padding: 10px;
   margin-top: 10%;
 }
 
@@ -309,7 +309,7 @@ a.button {
   font-weight: 700;
   font-size: 35px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -326,7 +326,7 @@ label {
   display: none;
 }
 
-.form-group input{
+.form-group input {
   width: 327px;
   height: 48px;
   margin-top: 20px;
@@ -334,11 +334,11 @@ label {
   border: 1px solid #cfd8dc;
   font-size: 17px;
   font-weight: 400;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   border-radius: 8px;
   padding-left: 16px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 textarea {
@@ -348,23 +348,22 @@ textarea {
   padding-left: 16px;
   padding-top: 10px;
   color: #b3bac5;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   resize: none;
 }
-.submit-button{
+
+.submit-button {
   padding: 12px 16px;
   width: 140px;
   height: 48px;
   font-weight: 500;
   font-size: 17px;
   font-family: "Poppins", "sans-serif";
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 8px;
   outline: none;
   border: none;
   margin-top: 20px;
   margin-bottom: 40px;
-
-
 }
