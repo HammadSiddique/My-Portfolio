@@ -212,8 +212,9 @@ a.button {
 }
 
 .see-project:hover {
-  background-color: #e2e2e2;
-  transition: 0.5s;
+  background-color: #3044fc;
+  color: #fff;
+  transition: 0.3s 0.3s;
 }
 
 /* CSS for about section */
@@ -236,8 +237,9 @@ a.button {
 }
 
 .see-resume:hover {
-  background-color: #e2e2e2;
-  transition: 0.5s;
+  background-color: #3044fc;
+  color: #fff;
+  transition: 0.3s 0.3s;
 }
 
 .languages {
@@ -300,7 +302,7 @@ a.button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding-top: 103px;
   margin-top: 10%;
 }
 
@@ -366,4 +368,10 @@ textarea {
   border: none;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.submit-button:hover {
+  background-color: #3044fc;
+  color: #fff;
+  transition: 0.3s 0.3s;
 }
