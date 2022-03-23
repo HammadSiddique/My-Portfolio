@@ -389,13 +389,13 @@ textarea {
   transition: 0.3s 0.3s;
 }
 
+.submit-button:disabled {
+  border: 1px solid #999;
+  background-color: #fff;
+  color: #666;
+}
+
 .submit-button:active:enabled {
   background-color: #2230d2;
   transition: 0.1s;
-}
-
-.submit-button:disabled {
-  border: 1px solid #999999;
-  background-color: #fff;
-  color: #666666;
 }
