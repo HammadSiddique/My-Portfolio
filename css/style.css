@@ -212,9 +212,14 @@ a.button {
 }
 
 .see-project:hover {
-  background-color: #3044fc;
+  background-color: #6070ff;
   color: #fff;
   transition: 0.3s 0.3s;
+}
+
+.see-project:active:enabled {
+  background-color: #2230d2;
+  transition: 0.1s;
 }
 
 /* CSS for about section */
@@ -237,9 +242,14 @@ a.button {
 }
 
 .see-resume:hover {
-  background-color: #3044fc;
+  background-color: #6070ff;
   color: #fff;
   transition: 0.3s 0.3s;
+}
+
+.see-resume:active:enabled {
+  background-color: #2230d2;
+  transition: 0.1s;
 }
 
 .languages {
@@ -341,6 +351,7 @@ label {
   border-radius: 8px;
   padding-left: 16px;
   color: #172b4d;
+  outline: none;
 }
 
 textarea {
@@ -353,6 +364,8 @@ textarea {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   resize: none;
+  border: 1px solid #cfd8dc;
+  outline: none;
 }
 
 .submit-button {
@@ -371,7 +384,18 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #3044fc;
+  background-color: #6070ff;
   color: #fff;
   transition: 0.3s 0.3s;
+}
+
+.submit-button:active:enabled {
+  background-color: #2230d2;
+  transition: 0.1s;
+}
+
+.submit-button:disabled {
+  border: 1px solid #999999;
+  background-color: #fff;
+  color: #666666;
 }
