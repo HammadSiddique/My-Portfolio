@@ -1,22 +1,32 @@
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-position: center;
   background-size: auto;
 }
 
-.toolbar {
+/*.fixed-navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+} */
+
+.mobile-nav {
   display: flex;
   justify-content: space-between;
   flex: 1;
   align-items: center;
   padding: 0;
   margin: 0;
+}
+
+.desktop-nav {
+  display: none;
 }
 
 .logo {
@@ -138,7 +148,7 @@ a.button {
   width: 100%;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  box-shadow: 0 0 1px  rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .cards img {
@@ -237,7 +247,7 @@ a.button {
   margin-bottom: 40px;
   color: #396df2;
   font-size: 20px;
-  border: 1px solid  #396df2;
+  border: 1px solid #396df2;
   background-color: white;
 }
 
@@ -398,4 +408,158 @@ textarea {
 .submit-button:active:enabled {
   background-color: #2230d2;
   transition: 0.1s;
+}
+
+/* CSS for desktop version */
+
+@media (min-width: 768px) {
+  .app-wrap {
+    max-width: 100%;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    background-color: #fff;
+  }
+
+  .logo-desktop {
+    font-size: 1.15rem;
+    color: #6070ff;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .desktop-header-items {
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+    list-style: none;
+  }
+
+  .desktop-header-items a {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .intro {
+    background-image: url(../images/Header-bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40rem;
+  }
+
+  .name {
+    max-width: 25rem;
+    margin-left: 15rem;
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  .description {
+    max-width: 55rem;
+    margin-left: 15rem;
+  }
+
+  .connect,
+  .social-icons {
+    margin-left: 15rem;
+  }
+
+  .portfolio {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-row-gap: 4.5rem;
+    flex-direction: column;
+    align-content: center;
+    max-width: 75%;
+    max-height: 20%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .cards img {
+    max-width: 60rem;
+    height: 90%;
+  }
+
+  .card-image {
+    width: 50%;
+    margin-top: 0.7rem;
+  }
+
+  .card-content {
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+  }
+
+  .project-name {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .key-text {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 20rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+  }
+
+  .canopy {
+    font-size: 1.1rem;
+  }
+
+  .about {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .about-container {
+    max-width: 50%;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .skills-container {
+    padding-top: 4.5rem;
+    flex: 1;
+  }
+
+  .about-language {
+    display: flex;
+  }
+
+  .see-resume {
+    margin-left: 35%;
+  }
 }

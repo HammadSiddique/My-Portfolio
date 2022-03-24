@@ -13,20 +13,29 @@
 
 <body>
     <div class="app-wrap">
-    <header>
-        <nav class="toolbar">
+    <header class="fixed-navbar">
+        <nav class="mobile-nav">
             <a class="logo">
                 My Logo
             </a>
             <a href="#" class="button">
-              <i class="fa fa-bars"></i>
-            </a> 
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <nav class="desktop-nav">
+            <a class="logo-desktop">
+                My Logo
+            </a>
+            <ul class="desktop-header-items"> 
+                <li> <a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
         </nav>
     </header>
 
     <main class="page">
         <section class="intro">
-            <h1 class="name">I'm Hammad Glad to see you!</h1>
+            <h1 class="name">I'm Hammad <br> Glad to see you!</h1>
             <p class="description">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             <h2 class="connect">LET'S CONNECT</h2>
             <ul class="social-icons">
@@ -41,75 +50,88 @@
         <section class="portfolio">
             <div class="project-cards">
                 <div class="cards card1">
-                    <img src="images/Snapshoot-Portfolio.svg" alt="Snapshot Portfolio">
-                    <h3 class="project-name">Tonic</h3>
-                        <div class="key-text"> 
-                            <p class="canopy">CANOPY</p>
-                            <p class="fa-solid fa-circle fa-2xs"></p>
-                            <p class="position">Back end dev</p>
-                            <p class="fa-solid fa-circle fa-2xs"></p>
-                            <p class="year">2015</p>
-                        </div>
-                        <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="language-container">
-                            <li class="lang">html</li>
-                            <li class="lang">css</li>
-                            <li class="lang">javascript</li>
-                        </ul>
-                        <button class="see-project">See Project</button>
+                    <div class="card-image">
+                        <img src="images/Snapshoot-Portfolio.svg" alt="Snapshot Portfolio">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="project-name">Tonic</h3>
+                            <div class="key-text"> 
+                                <p class="canopy">CANOPY</p>
+                                <p class="fa-solid fa-circle fa-2xs"></p>
+                                <p class="position">Back end dev</p>
+                                <p class="fa-solid fa-circle fa-2xs"></p>
+                                <p class="year">2015</p>
+                            </div>
+                            <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                            <ul class="language-container">
+                                <li class="lang">html</li>
+                                <li class="lang">css</li>
+                                <li class="lang">javascript</li>
+                            </ul>
+                            <button class="see-project">See Project</button>
+                    </div>    
                 </div>
                 <div class="cards card2">
-                    <img src="images/Snapshoot-Portfolio-(1).svg" alt="Snapshot Portfolio">
-                    <h3 class="project-name">Multi Post Stories</h3>
-                        <div class="key-text"> 
-                            <p class="canopy">CANOPY</p>
-                            <p class="fa-solid fa-circle fa-2xs"><p>
-                            <p class="position">Back end dev</p>
-                            <p class="fa-solid fa-circle fa-2xs"></p>
-                            <p class="year">2015</p>
-                        </div>
-                        <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="language-container">
-                            <li class="lang">html</li>
-                            <li class="lang">css</li>
-                            <li class="lang">javascript</li>
-                        </ul>
-                        <button class="see-project">See Project</button>
+                    <div class="card-image">
+                        <img src="images/Snapshoot-Portfolio-(1).svg" alt="Snapshot Portfolio">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="project-name">Multi Post Stories</h3>
+                            <div class="key-text"> 
+                                <p class="canopy">CANOPY</p>
+                                <p class="fa-solid fa-circle fa-2xs"><p>
+                                <p class="position">Back end dev</p>
+                                <p class="fa-solid fa-circle fa-2xs"></p>
+                                <p class="year">2015</p>
+                            </div>
+                            <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                            <ul class="language-container">
+                                <li class="lang">html</li>
+                                <li class="lang">css</li>
+                                <li class="lang">javascript</li>
+                            </ul>
+                            <button class="see-project">See Project</button>
+                    </div>
                 </div>
-                <div class="cards card 3">
-                    <img src="images/Snapshoot-Portfolio-(2).svg" alt="Snapshot Portfolio">
-                    <h3 class="project-name">Tonic</h3>
-                        <div class="key-text"> 
-                            <p class="canopy">CANOPY</p>
-                            <p class="fa-solid fa-circle fa-2xs"></p>
-                            <p class="position">Back end dev</p>
-                            <p class="fa-solid fa-circle fa-2xs"></p>
-                            <p class="year">2015</p>
-                        </div>
-                        <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="language-container">
-                            <li class="lang">html</li>
-                            <li class="lang">css</li>
-                            <li class="lang">javascript</li>
-                        </ul>
-                        <button class="see-project">See Project</button>
+                <div class="cards card3">
+                    <div class="card-image">
+                        <img src="images/Snapshoot-Portfolio-(2).svg" alt="Snapshot Portfolio">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="project-name">Tonic</h3>
+                            <div class="key-text"> 
+                                <p class="canopy">CANOPY</p>
+                                <p class="fa-solid fa-circle fa-2xs"></p>
+                                <p class="position">Back end dev</p>
+                                <p class="fa-solid fa-circle fa-2xs"></p>
+                                <p class="year">2015</p>
+                            </div>
+                            <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                            <ul class="language-container">
+                                <li class="lang">html</li>
+                                <li class="lang">css</li>
+                                <li class="lang">javascript</li>
+                            </ul>
+                            <button class="see-project">See Project</button>
+                    </div>
                 </div>            
             </div>
         </section>
 
         <section class="about">
-            <h2 class="name">About Myself</h2>
-            <p class="description">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <h2 class="connect">LET'S CONNECT</h2>
-            <ul class="social-icons">
-                <li class="icon"><a class="fa-brands fa-twitter" href="#"></a> </li>
-                <li class="icon"><a class="fa-brands fa-linkedin" href="#"></a> </li>
-                <li class="icon"><a class="fa-brands fa-medium" href="#"></a> </li>
-                <li class="icon"><a class="fa-brands fa-github" href="#"></a> </li>
-                <li class="icon"><a class="fa-brands fa-angellist" href="#"></a> </li>
-            </ul>
-            <button class="see-resume">Get my Resume</button>
-
+            <div class="about-container">
+                <h2 class="name">About Myself</h2>
+                <p class="description">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <h2 class="connect">LET'S CONNECT</h2>
+                <ul class="social-icons">
+                    <li class="icon"><a class="fa-brands fa-twitter" href="#"></a> </li>
+                    <li class="icon"><a class="fa-brands fa-linkedin" href="#"></a> </li>
+                    <li class="icon"><a class="fa-brands fa-medium" href="#"></a> </li>
+                    <li class="icon"><a class="fa-brands fa-github" href="#"></a> </li>
+                    <li class="icon"><a class="fa-brands fa-angellist" href="#"></a> </li>
+                </ul>
+                <button class="see-resume">Get my Resume</button>
+            </div>
             <div class="skills-container">
                 <div class="languages">
                     <div class="text-icon"> 
