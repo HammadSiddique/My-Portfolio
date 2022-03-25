@@ -596,4 +596,11 @@ textarea {
   .black-bar {
     display: none;
   }
+
+  /* CSS for animations and transitions */
+
+  .cards:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
 }
