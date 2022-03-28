@@ -427,7 +427,6 @@ textarea {
     color: #6070ff;
     font-weight: 700;
     line-height: 20px;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
   }
 
   .desktop-header-items {
@@ -601,22 +600,41 @@ textarea {
   /* CSS for animations and transitions */
 
   .cards:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
-  }
-
-  @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-
-    100% {
-      transform: translateX(0);
-    }
   }
 
   .desktop-header-items a:hover {
     color: #6070ff;
     transition: 0.3s;
+  }
+
+  .intro .name,
+  .page .description,
+  .connect,
+  .social-icons,
+  .logo-desktop {
+    animation: 2s anim-intro-up ease-out 1;
+  }
+
+  @keyframes anim-intro-up {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+
+    20% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
   }
 }
