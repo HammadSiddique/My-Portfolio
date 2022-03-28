@@ -4,8 +4,6 @@
 
 This is the source code for my portfolio. Through this portfolio, you can access all my projects and connect with me on other socials.
 
-You can check my portfolio here : https://hammadsiddique.github.io/My-Portfolio/
-
 
 ## Built With
 
