@@ -608,4 +608,30 @@ textarea {
     color: #6070ff;
     transition: 0.3s;
   }
+
+  .intro .name,
+  .page .description,
+  .connect,
+  .social-icons,
+  .logo-desktop {
+    animation: 2s anim-intro-up ease-out 1;
+  }
+
+  @keyframes anim-intro-up {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 }
