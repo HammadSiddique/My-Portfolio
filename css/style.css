@@ -18,6 +18,56 @@ body {
   margin: 0;
 }
 
+/* mobile start */
+
+.mobile-menu {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  opacity: 0.9;
+}
+
+.mobile-menu-items {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: left;
+  margin-top: 1.2rem;
+}
+
+.mobile-menu a {
+  padding: 1rem;
+  padding-left: 2rem;
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+  font-weight: 600;
+  display: block;
+  transition: 0.3s;
+  line-height: 44px;
+}
+
+.mobile-menu a:hover,
+.mobile-menu a:focus {
+  color: #f1f1f1;
+}
+
+.mobile-menu .close-button {
+  position: absolute;
+  top: 0.6rem;
+  right: 1.5rem;
+  font-size: 1.9rem;
+  font-weight: normal;
+  border: 2px;
+  cursor: pointer;
+}
+
+/* mobile end */
 .desktop-nav {
   display: none;
 }
