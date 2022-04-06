@@ -74,12 +74,12 @@ for (let i = 0; i < projectsList.length; i += 1) {
   });
   workSections.innerHTML += `
       <div class='projects'>
-          <div class='img-web'>
+          <div class='card-image'>
             <img src='${projectsList[i].imageLink}' alt='work 1' class='' />
           </div>
-          <div class='project-description'>
-            <h1 class='title'>${projectsList[i].name}</h1>
-            <div class='role'>
+          <div class='card-content'>
+            <h3 class='project-name'>${projectsList[i].name}</h3>
+            <div class='key-text'>
               <div class="role-name">${projectsList[i].company}</div>
                 <div class="role-dot"></div>
                 <div class="role-job">${projectsList[i].role}</div>
@@ -90,11 +90,11 @@ for (let i = 0; i < projectsList.length; i += 1) {
               <p>
                 ${projectsList[i].description}
               </p>
-              <ul class='skills'>
+              <ul class='language-container'>
                 ${languages}
               </ul>
               <div classs="button-click">
-                <button type='button' class='btn btn-enabled project-modal-${i}'>See project</button>
+                <button type='button' class='see-project btn-enabled project-modal-${i}'>See project</button>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
     modal.classList.add('show');
   });
 }
-  document.querySelector('.closeModal').addEventListener('click', () => {
+document.querySelector('.closeModal').addEventListener('click', () => {
   modal.style.display = 'none';
   window.location.reload();
   document.querySelector('.header').classList.remove('blur');

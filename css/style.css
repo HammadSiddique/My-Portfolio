@@ -246,6 +246,14 @@ header {
   gap: 10px;
   align-items: center;
   margin-left: 16px;
+  padding: 0.5px;
+  width: 100%;
+  left: 0.5px;
+  top: 180px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-top: 10%;
 }
 
 .lang {
@@ -280,7 +288,7 @@ header {
   transition: 0.1s;
 }
 
-/*Mobile pop-up window CSS start */
+/* Mobile pop-up window CSS start */
 
 .projects {
   display: flex;
@@ -414,22 +422,6 @@ header {
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-.skills {
-  display: flex;
-  float: right;
-  align-items: center;
-  position: static;
-  padding: 0.5px;
-  width: 100%;
-  height: 24px;
-  left: 0.5px;
-  top: 180px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin-top: 10%;
 }
 
 .modal-example {
@@ -608,7 +600,7 @@ ul.project__lang {
   border-radius: 50%;
 }
 
-/*Mobile pop-up window CSS end */
+/* Mobile pop-up window CSS end */
 
 /* CSS for about section */
 
@@ -855,118 +847,117 @@ textarea {
     margin-left: 15rem;
   }
 
-/* modal CSS desktop */
-.modal-example {
-  width: 60%;
-  padding: 2%;
-}
+  /* modal CSS desktop */
+  .modal-example {
+    width: 60%;
+    padding: 2%;
+  }
 
-.modal-example.show {
-  right: 0;
-  max-width: 100%;
-  bottom: 0;
-  max-height: 608px;
-  transform: translate(-10%, 0%);
-}
+  .modal-example.show {
+    right: 0;
+    max-width: 100%;
+    bottom: 0;
+    max-height: 608px;
+    transform: translate(-10%, 0%);
+  }
 
-.modal__body {
-  overflow-y: auto;
-}
+  .modal__body {
+    overflow-y: auto;
+  }
 
-.modal-img {
-  max-height: 400px;
-  max-width: 60%;
-}
+  .modal-img {
+    max-height: 400px;
+    max-width: 60%;
+  }
 
-.desc {
-  width: 60%;
-}
+  .desc {
+    width: 60%;
+  }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  align-items: normal;
-  margin: 5%;
-  width: 90%;
-  height: 60%;
-}
+  .projects {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin: 5%;
+    width: 90%;
+    height: 60%;
+  }
 
-.img-web {
-  display: flex;
-  width: 40%;
-}
+  .img-web {
+    display: flex;
+    width: 40%;
+  }
 
-.project-description {
-  display: flex;
-  flex-direction: column;
-}
+  .project-description {
+    display: flex;
+    flex-direction: column;
+  }
 
-.project-details {
-  align-items: center;
-}
+  .project-details {
+    align-items: center;
+  }
 
-.project-desc {
-  display: flex;
-}
+  .project-desc {
+    display: flex;
+  }
 
-.role {
-  display: flex;
-  align-items: center;
-}
+  .role {
+    display: flex;
+    align-items: center;
+  }
 
-.role-name {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #344563;
-}
+  .role-name {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
 
-.role-dot {
-  width: 10px;
-  height: 10px;
-  left: 67px;
-  top: 12px;
-  background: #c1c7d0;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 6.5px 22px;
-  border-radius: 50%;
-}
+  .role-dot {
+    width: 10px;
+    height: 10px;
+    left: 67px;
+    top: 12px;
+    background: #c1c7d0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6.5px 22px;
+    border-radius: 50%;
+  }
 
-.role-job {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 24px;
-}
+  .role-job {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+  }
 
-.role-year {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #6b778c;
-}
+  .role-year {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
 
-.project-details > p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  width: 496px;
-  height: 50px;
-  left: 24px;
-  top: 146px;
-}
-/* modal desktop Css end */
+  .project-details > p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 496px;
+    height: 50px;
+    left: 24px;
+    top: 146px;
+  }
 
-
+  /* modal desktop Css end */
 
   .portfolio {
     margin-bottom: 5rem;
@@ -993,6 +984,12 @@ textarea {
     max-height: 100%;
   }
 
+  .card-content {
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+  }
+
   .card2 .card-content {
     order: -1;
   }
@@ -1005,12 +1002,6 @@ textarea {
   .card-image {
     width: 50%;
     margin-top: 0.7rem;
-  }
-
-  .card-content {
-    width: 50%;
-    margin-top: 3rem;
-    margin-left: 0.5rem;
   }
 
   .project-name {
