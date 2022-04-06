@@ -124,3 +124,16 @@ document.querySelector('.closeModal').addEventListener('click', () => {
   document.querySelector('.header').classList.remove('blur');
   document.querySelector('.showcase').classList.remove('blur');
 });
+
+const email = document.querySelector('#email');
+const errorMessage = document.querySelector('.form-submission-error');
+const contactFrom = document.querySelector('.contact-form');
+
+contactFrom.addEventListener('submit', (event) => {
+  const regex = /[A-Z]/;
+  const emailText = email.value;
+  if (regex.test(emailText)) {
+    errorMessage.innerHTML = 'Email address must be in lowercase letters';
+    event.preventDefault();
+  }
+});

@@ -109,7 +109,7 @@
             <h2 class="contact-heading">Contact me</h2>
             <p class="contact-description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         </div>
-        <form class="contact-form" action="https://formspree.io/f/xqknlowy" method="post">
+        <form id="form" class="contact-form" action="https://formspree.io/f/xqknlowy" method="post">
             
             <div class="form-group">
                 <label for="name">Full Name</label>
@@ -123,6 +123,7 @@
                 <label for="message">Message</label>
                 <textarea name="message" id="message" placeholder="Write your message here" cols="30" rows="10" maxlength="500" required></textarea>
             </div>
+            <div class="form-submission-error"></div>
             <button type="submit" class="submit-button">Get in touch</button>
         </form>
         <img class="black-bar" src="images/Shape.svg" alt="Shape">
