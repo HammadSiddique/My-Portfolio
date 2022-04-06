@@ -58,75 +58,7 @@
             </ul>
         </section>
 
-        <section id="portfolio" class="portfolio">
-            <div class="project-cards">
-                <div class="cards card1">
-                    <div class="card-image">
-                        <img src="images/Snapshoot-Portfolio.svg" alt="Tonic project image 1">
-                    </div>
-                    <div class="card-content">
-                        <h3 class="project-name">Tonic</h3>
-                            <div class="key-text"> 
-                                <p class="canopy">CANOPY</p>
-                                <p class="fa-solid fa-circle fa-2xs"></p>
-                                <p class="position">Back end dev</p>
-                                <p class="fa-solid fa-circle fa-2xs"></p>
-                                <p class="year">2015</p>
-                            </div>
-                            <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                            <ul class="language-container">
-                                <li class="lang">html</li>
-                                <li class="lang">css</li>
-                                <li class="lang">javascript</li>
-                            </ul>
-                            <button class="see-project">See Project</button>
-                    </div>    
-                </div>
-                <div class="cards card2">
-                    <div class="card-image">
-                        <img src="images/Snapshoot-Portfolio-(1).svg" alt="Project multi-post stories image">
-                    </div>
-                    <div class="card-content">
-                        <h3 class="project-name">Multi Post Stories</h3>
-                            <div class="key-text"> 
-                                <p class="canopy">CANOPY</p>
-                                <p class="fa-solid fa-circle fa-2xs"><p>
-                                <p class="position">Back end dev</p>
-                                <p class="fa-solid fa-circle fa-2xs"></p>
-                                <p class="year">2015</p>
-                            </div>
-                            <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                            <ul class="language-container">
-                                <li class="lang">html</li>
-                                <li class="lang">css</li>
-                                <li class="lang">javascript</li>
-                            </ul>
-                            <button class="see-project">See Project</button>
-                    </div>
-                </div>
-                <div class="cards card3">
-                    <div class="card-image">
-                        <img src="images/Snapshoot-Portfolio-(2).svg" alt="Project tonic image 2">
-                    </div>
-                    <div class="card-content">
-                        <h3 class="project-name">Tonic</h3>
-                            <div class="key-text"> 
-                                <p class="canopy">CANOPY</p>
-                                <p class="fa-solid fa-circle fa-2xs"></p>
-                                <p class="position">Back end dev</p>
-                                <p class="fa-solid fa-circle fa-2xs"></p>
-                                <p class="year">2015</p>
-                            </div>
-                            <p class="card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                            <ul class="language-container">
-                                <li class="lang">html</li>
-                                <li class="lang">css</li>
-                                <li class="lang">javascript</li>
-                            </ul>
-                            <button class="see-project">See Project</button>
-                    </div>
-                </div>            
-            </div>
+        <section id="portfolio" class="project-section">   
         </section>
 
         <section id="about" class="about">
@@ -195,9 +127,44 @@
         </form>
         <img class="black-bar" src="images/Shape.svg" alt="Shape">
     </footer>
+    <div class="modal-example">
+        <div class="modal-head">
+          <h1 class="projectname"></h1>
+          <button type="button" class="closeModal">&times;</button>
+        </div>
+        <div class="modal__body">
+          <div class="short_desc">
+            <h4 class="company"></h4>
+            <span></span>
+            <h4 class="role"></h4>
+            <span></span>
+            <h6 class="year"></h6>
+          </div>
+          <img src="#" alt="img" class="modal-img">
+          <div class="project-desc">
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatem pariatur modi rerum error
+              ea consequatur, excepturi eum maiores! Quo quibusdam culpa ratione.?Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.
+              !</p>
+            <div class="desc_btn">
+              <ul class="project__lang">
+                <li><a href="" class="lang1" title="html">html</a></li>
+                <li><a href="" class="lang1" title="css">css</a></li>
+                <li>
+                  <a href="#" class="lang1" title="javascript">javascript</a>
+                </li>
+              </ul>
+              <div class="final">
+                <button type="button" class="modal-btn">See live <i class="fa fa-external-link" aria-hidden="true"></i></button>
+                <button type="button" class="modal-btn">See source <i class="fa fa-github"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script src="menu.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
