@@ -419,9 +419,31 @@ header {
   line-height: 24px;
   color: #344563;
   margin-top: 5%;
-  flex: none;
-  order: 1;
+  flex: 0;
+  order: 0;
   flex-grow: 0;
+}
+
+.skill {
+  position: static;
+  width: 29px;
+  height: 16px;
+  left: 12px;
+  top: 4px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
 }
 
 .modal-example {
@@ -449,17 +471,27 @@ header {
   outline: none;
   color: #6070ff;
   font-weight: 600;
-  margin-right: 5px;
-  margin-top: 0;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
 }
 
 .modal-example.show {
   display: flex;
+  justify-content: center;
+  flex: 1;
+  height: auto;
+  width: 70%;
 }
 
 .modal-example img {
-  width: 66%;
-  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 140%;
+  height: 90%;
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .modal-example .closeModal {
@@ -855,9 +887,9 @@ textarea {
 
   .modal-example.show {
     right: 0;
-    max-width: 100%;
+    max-width: 60%;
     bottom: 0;
-    max-height: 608px;
+    height: auto;
     transform: translate(-10%, 0%);
   }
 
@@ -866,8 +898,9 @@ textarea {
   }
 
   .modal-img {
-    max-height: 400px;
-    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    height: auto;
   }
 
   .desc {
@@ -885,12 +918,13 @@ textarea {
 
   .img-web {
     display: flex;
-    width: 40%;
+    width: 80%;
   }
 
   .project-description {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .project-details {
@@ -946,16 +980,15 @@ textarea {
   }
 
   .project-details > p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
-    width: 496px;
     height: 50px;
     left: 24px;
     top: 146px;
+    margin-left: 1rem;
   }
+
 
   /* modal desktop Css end */
 
@@ -987,7 +1020,7 @@ textarea {
   .card-content {
     width: 50%;
     margin-top: 3rem;
-    margin-left: 0.5rem;
+    margin-left: 15rem;
   }
 
   .card2 .card-content {
@@ -999,9 +1032,8 @@ textarea {
     height: 90%;
   }
 
-  .card-image {
-    width: 50%;
-    margin-top: 0.7rem;
+  .card-image img {
+    height: 100%;
   }
 
   .project-name {
