@@ -1113,6 +1113,11 @@ textarea {
     width: 30rem;
   }
 
+  .form-submission-error {
+    color: red;
+    margin-top: 5%;
+  }
+
   .submit-button {
     margin-left: 10rem;
   }
