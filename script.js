@@ -138,9 +138,9 @@ contactFrom.addEventListener('submit', (event) => {
   }
 });
 
-const storeName = document.querySelector('email');
-const storeEmail = document.querySelector('name');
-const storeMesssage = document.querySelector('message');
+const storeName = document.querySelector('#name');
+const storeEmail = document.querySelector('#email');
+const storeMesssage = document.querySelector('#message');
 
 contactFrom.addEventListener('input', () => {
   const storeData = {
