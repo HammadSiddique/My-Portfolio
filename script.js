@@ -137,3 +137,22 @@ contactFrom.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+const storeName = document.querySelector('#name');
+const storeEmail = document.querySelector('#email');
+const storeMesssage = document.querySelector('#message');
+
+contactFrom.addEventListener('input', () => {
+  const storeData = {
+    name: storeName.value,
+    email: storeEmail.value,
+    message: storeMesssage.value,
+  };
+  localStorage.setItem('storeData', JSON.stringify(storeData));
+});
+
+const userData = JSON.parse(localStorage.getItem('storeData'));
+
+storeName.value = userData.name;
+storeEmail.value = userData.email;
+storeMesssage.value = userData.message;
