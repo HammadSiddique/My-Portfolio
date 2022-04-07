@@ -546,6 +546,10 @@ header {
   animation-duration: 0.4s;
 }
 
+.blur {
+  filter: blur(6px);
+}
+
 @-webkit-keyframes animatetop {
   from {
     top: -300px;
