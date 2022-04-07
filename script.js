@@ -138,18 +138,21 @@ contactFrom.addEventListener('submit', (event) => {
   }
 });
 
-const storeName = document.querySelector('#email');
-const storeEmail = document.querySelector('#name');
-const storeMesssage = document.querySelector('#message');
+const storeName = document.querySelector('email');
+const storeEmail = document.querySelector('name');
+const storeMesssage = document.querySelector('message');
 
-contactFrom.addEventListener('input',() => {
+contactFrom.addEventListener('input', () => {
   const storeData = {
-    name: storeName.value, 
+    name: storeName.value,
     email: storeEmail.value,
     message: storeMesssage.value,
-};
-  localStorage.setitem('storeData', JSON.stringify('storeData'));
-})
+  };
+  localStorage.setItem('storeData', JSON.stringify(storeData));
+});
 
-  const userData = JSON.parse(localStorage.getItem('storeData'));
-  
+const userData = JSON.parse(localStorage.getItem('storeData'));
+
+storeName.value = userData.name;
+storeEmail.value = userData.email;
+storeMesssage.value = userData.message;
