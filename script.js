@@ -16,7 +16,7 @@ closeMenu.addEventListener('click', close);
 
 document.querySelectorAll('.pop-nav').forEach((link) => {
   link.addEventListener('click', () => {
-    document.getElementById('mobile-nav-menu').style.display = 'none';
+    document.getElementById('mobile-nav-menu').style.display = 'flex';
   });
 });
 
@@ -120,7 +120,6 @@ for (let i = 0; i < projectsList.length; i += 1) {
 }
 document.querySelector('.closeModal').addEventListener('click', () => {
   modal.style.display = 'none';
-  window.location.reload();
   document.querySelector('.header').classList.remove('blur');
   document.querySelector('.showcase').classList.remove('blur');
 });
