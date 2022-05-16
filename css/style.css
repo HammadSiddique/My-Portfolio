@@ -205,6 +205,11 @@ header {
   margin: 12px 18px;
 }
 
+.card-image .img1 {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .project-name {
   font-weight: 700;
   font-size: 28px;
@@ -315,7 +320,7 @@ header {
   height: 25%;
   left: 0;
   top: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -336,7 +341,7 @@ header {
   height: 16px;
   left: 0;
   top: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -367,7 +372,7 @@ header {
   height: 16px;
   left: 0;
   top: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -385,7 +390,7 @@ header {
   height: 16px;
   left: 0;
   top: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -402,7 +407,7 @@ header {
 }
 
 .project-description > h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -412,7 +417,7 @@ header {
 
 .project-details {
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -473,6 +478,7 @@ header {
   font-weight: 600;
   margin-right: 0.5rem;
   margin-top: 1rem;
+  text-decoration: none;
 }
 
 .modal-example.show {
@@ -945,7 +951,7 @@ textarea {
   }
 
   .role-name {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -967,7 +973,7 @@ textarea {
   }
 
   .role-job {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -975,7 +981,7 @@ textarea {
   }
 
   .role-year {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1020,10 +1026,13 @@ textarea {
     max-height: 100%;
   }
 
+  #content1 {
+    padding: 2%;
+  }
+
   .card-content {
-    width: 50%;
-    margin-top: 3rem;
-    margin-left: 15rem;
+    padding-left: 20%;
+    padding-top: 2%;
   }
 
   .card2 .card-content {
@@ -1032,7 +1041,13 @@ textarea {
 
   .cards img {
     max-width: 60rem;
-    height: 90%;
+  }
+
+  .card-image .img1 {
+    width: 490px;
+    height: 300px;
+    padding: 1%;
+    border-radius: 20px;
   }
 
   .card-image img {
